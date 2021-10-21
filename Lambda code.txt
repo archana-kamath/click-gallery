@@ -1,0 +1,41 @@
+import json
+import urllib.parse
+import boto3
+
+print('Loading function')
+
+s3 = boto3.client('s3')
+sns = boto3.client('sns')
+
+def lambda_handler(event, context):
+
+    bucket = event['Records'][0]['s3']['bucket']['name']
+    key = event['Records'][0]['s3']['object']['key']
+    eventname = event['Records'][0]['eventName']
+    sns_message = str("Hello Archana Kamath, \n\n Updates from Click Gallery \n\n Bucket Name: "+ bucket +"\n\n File Name: " + key + "\n\n Action: " + eventname + "\n\n")
+    try:
+        print(eventname)
+        if eventname == "ObjectRemoved:Delete":
+            print("File is being Deleted")
+            sns_message += str("File Deleted")
+        else:
+            response = s3.get_object(Bucket=bucket, Key=key)
+            sns_message += str("File content type: " + str(response['ContentType']))
+            print("CONTENT TYPE: " + response['ContentType'])
+        print(str(sns_message))
+		
+        subject= "Changes in Click Gallery"
+        print(subject)
+		
+        sns_response = sns.publish(
+        
+		TargetArn='<insert here>',
+        
+		Message= str(sns_message),
+        Subject= str(subject)
+        )
+        #return response['ContentType']
+    except Exception as e:
+        print(e)
+        print('Error getting object {} from bucket {}. Make sure they exist and your bucket is in the same region as this function.'.format(key, bucket))
+        raise e
