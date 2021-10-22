@@ -5,7 +5,7 @@ Click Gallery is a web application with user and admin panels, to upload, downlo
 
 User and Admin Login <br /><br />
 
-# User features <br />
+### User features <br />
 •	Create an account with email id.<br />
 •	Login to account <br />
 •	View all the previously uploaded pictures.<br />
@@ -16,7 +16,7 @@ User and Admin Login <br /><br />
 •	View images in a new tab by clicking on link.<br />
 •	On uploading a new image an email will be sent with file details<br />
 
-# Admin features <br />
+### Admin features <br />
 •	Create or login into as an admin.<br />
 •	View all the images by all users.<br />
 •	View images of a specific user.<br />
@@ -25,7 +25,7 @@ User and Admin Login <br /><br />
 Login and Logout features are available for both User and Admin.<br />
 
 
-## Tools and technology:
+### Tools and technology:
 
 AWS used are Amazon Route 53, Amazon S3, Amazon CloudFront, Amazon EC2, AWS Certificate manager, AWS Lambda, Amazon SNS, Amazon RDS<br />
 Backend: Spring Boot, Java 11<br />
@@ -33,11 +33,11 @@ Frontend: React, Bootstrap<br />
 Lambda function code: Python<br />
 AWS SDK and AWS Eclipse Toolkit, Beyond Compare, Visula Studio Code, MySQL, Notepad++<br />
 
-## AWS Architecture Diagram
+### AWS Architecture Diagram
 
 ![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/ArchitectureDiagram.png?raw=true)
 
-## Screenshots of application
+### Screenshots of application
 
 ![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserHome.png?raw=true)
 
