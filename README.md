@@ -30,3 +30,37 @@ Lambda function code: Python<br />
 AWS SDK and AWS Eclipse Toolkit, Beyond Compare, Visula Studio Code, MySQL, Notepad++<br />
 
 ## AWS Architecture Diagram
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/ArchitectureDiagram.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserHome.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserNew.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserLogin1.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserFirstView.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserFiles.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserAll.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserUpload1.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserUpdate1.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserDelete1.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/UserDownload1.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminHome.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminNew.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminView.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminDownload.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminDelete.png?raw=true)
+
+![alt text](https://github.com/archana-kamath/click-gallery/blob/main/Images/AdminUserView.png?raw=true)
