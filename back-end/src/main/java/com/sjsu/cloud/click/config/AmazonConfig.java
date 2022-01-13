@@ -32,13 +32,5 @@ public class AmazonConfig {
 	                .build();
 
 	    }
-	    
-		/*
-		 * final BasicAWSCredentials basicAWSCredentials = new
-		 * BasicAWSCredentials(accessKeyId, secretAccessKey); // Get AmazonS3 client and
-		 * return the s3Client object. return AmazonS3ClientBuilder .standard()
-		 * .withRegion(Regions.fromName(region)) .withCredentials(new
-		 * AWSStaticCredentialsProvider(basicAWSCredentials)) .build();
-		 */
 
 }
